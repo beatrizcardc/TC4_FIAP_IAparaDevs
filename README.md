@@ -135,6 +135,7 @@ Integração do RetinaFace para melhorar a precisão e abrangência da detecçã
 Lição:
 A escolha do detector certo pode transformar a qualidade da análise, especialmente em vídeos desafiadores.
 
+
 🎭 2. Análise de Emoções Mais Precisa e Natural
 Desafio inicial:
 Contabilização frame a frame das emoções, resultando em um excesso de registros e uma análise artificial.
@@ -144,6 +145,7 @@ Implementação do conceito de evento único com histórico de 15 frames para id
 
 Lição:
 Uma análise mais próxima da percepção humana requer filtrar eventos contínuos para evitar detecções redundantes e desnecessárias.
+
 
 🕺 3. Refinamento na Detecção de Atividades (Dança, Aperto de Mãos, Mãos Levantadas)
 Desafio inicial:
@@ -155,6 +157,7 @@ Ajuste criterioso dos parâmetros para melhorar a precisão, incluindo a anális
 Lição:
 A precisão pode ser alcançada combinando várias dimensões do movimento (posição, altura e profundidade), não apenas a detecção básica.
 
+
 ⚠️ 4. Detecção de Anomalias com Critérios Mais Seletivos
 Desafio inicial:
 Registrar mudanças frequentes como anomalias, resultando em alertas excessivos.
@@ -164,6 +167,7 @@ Refinamento das regras para considerar uma anomalia apenas quando mais de 8 muda
 
 Lição:
 O equilíbrio entre sensibilidade e precisão é fundamental para uma análise confiável.
+
 
 📊 5. Integração do MediaPipe para Detecção de Postura e Atividades Corporais
 Desafio inicial:
@@ -175,8 +179,9 @@ Utilização do MediaPipe Pose para análise detalhada das posturas e movimentos
 Lição:
 Ferramentas específicas para análise corporal enriquecem a interpretação do vídeo e complementam a detecção facial.
 
+______________________________________________________________________________________________________________________________________________________________________________________
 🛠️ Principais Desafios Superados
-Integração de múltiplas bibliotecas (FER, RetinaFace, MediaPipe) para garantir uma análise holística e precisa.
-Redução de falsos positivos em atividades corporais como "dança" e "aperto de mãos".
-Otimização do relatório automático, ajustando para exibir eventos únicos e eliminar redundâncias.
-Geração de vídeos com legendas e frames destacados, facilitando a compreensão visual das análises realizadas.
+- Integração de múltiplas bibliotecas (FER, RetinaFace, MediaPipe) para garantir uma análise holística e precisa.
+- Redução de falsos positivos em atividades corporais como "dança" e "aperto de mãos".
+- Otimização do relatório automático, ajustando para exibir eventos únicos e eliminar redundâncias.
+- Geração de vídeos com legendas e frames destacados salvos como jpg, facilitando a compreensão visual das análises realizadas.
