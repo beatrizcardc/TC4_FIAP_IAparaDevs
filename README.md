@@ -126,7 +126,7 @@ ________________________________________________________________________________
 
    - https://github.com/beatrizcardc/TC4_FIAP_IAparaDevs/blob/main/tc4_iadevs_py.py    - aplicação "limpa"
 
-   - 
+   - https://github.com/beatrizcardc/TC4_FIAP_IAparaDevs/blob/main/tc4_v49.py          - aplicação do processo
  
  ┗ 📜 README.md           # Descrição do projeto
 
