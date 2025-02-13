@@ -116,7 +116,7 @@ ________________________________________________________________________________
 
      - 🎥 https://youtu.be/RKzE78AzlCY - Vídeo com o Resultado da Identificação Facial
 
-     - 🎥 https://youtu.be/YgX-sOUhNts - Vídeo com o Resultado da Análise de Emoções, Atividades e Anomalias
+     - 🎥 https://youtu.be/OaeGV-zZCvE - Vídeo com o Resultado da Análise de Emoções, Atividades e Anomalias
  
  ┣ 📜 requirements.txt    # Dependências do projeto
 
