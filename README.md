@@ -73,6 +73,8 @@ ________________________________________________________________________________
 📦 projeto
 
  ┣ 📂 anomaly_frames      # Imagens de anomalias detectadas
+
+   - https://github.com/beatrizcardc/TC4_FIAP_IAparaDevs/tree/main/anomaly_frames
  
  ┣ 🎥 Videos:             # Vídeos do Projeto
 
