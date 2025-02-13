@@ -74,7 +74,13 @@ ________________________________________________________________________________
 
  ┣ 📂 anomaly_frames      # Imagens de anomalias detectadas
  
- ┣ 📂 output_analysis     # Vídeos processados
+ ┣ 🎥 Videos:             # Vídeos do Projeto
+
+     - 🎥 https://youtu.be/F2h3tjx8BnQ - Vídeo original do Desafio
+
+     - 🎥 https://youtu.be/RKzE78AzlCY - Vídeo com o Resultado da Identificação Facial
+
+     - 🎥 https://youtu.be/YgX-sOUhNts - Vídeo com o Resultado da Análise de Emoções, Atividades e Anomalias
  
  ┣ 📜 requirements.txt    # Dependências do projeto
  
