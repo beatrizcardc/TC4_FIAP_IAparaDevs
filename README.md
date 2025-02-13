@@ -27,8 +27,8 @@ ________________________________________________________________________________
 
 - ✋ Detecta atividades como:
 
-  - Mão Esquerda Levantada
-  - Mão Direita Levantada
+  - ✋ Mão Esquerda Levantada
+  - ✋ Mão Direita Levantada
   - 🙌 Mãos Levantadas
   - 💃 Dança
   - 🤝 Aperto de Mãos
