@@ -1,0 +1,32 @@
+# 📊 Resumo de Emoções, Atividades e Anomalias
+
+**🎥 Total de frames analisados:** 3326
+
+## 😊 Emoções detectadas (eventos únicos):
+- 😐 **Neutral**: 47 vezes
+- 😢 **Sad**: 60 vezes
+- 😨 **Fear**: 15 vezes
+- ❓ **Not detected**: 39 vezes
+- 😊 **Happy**: 31 vezes
+- 😠 **Angry**: 21 vezes
+- 😲 **Surprise**: 10 vezes
+- ❓ **Anomaly detected**: 10 vezes
+- ❓ **Disgust**: 4 vezes
+
+⚠️ **Total de Anomalias detectadas:** 69
+
+## 🔍 Atividades detectadas (eventos únicos):
+- ✋ (Esq) **Mao esquerda levantada**: 21 vezes
+- ✋ (Dir) **Mao direita levantada**: 20 vezes
+- 🙌 **Maos levantadas**: 13 vezes
+- 💃 **Dancando**: 1 vezes
+- 🤝 **Aperto de maos**: 2 vezes
+
+## 📸 Imagens de Anomalias e Atividades Destacadas:
+
+### 🔍 Atividade: **Dancando**
+- dancando_frame_605.jpg
+
+### 🔍 Atividade: **Aperto de maos**
+- aperto_de_maos_frame_2008.jpg
+- aperto_de_maos_frame_3106.jpg
