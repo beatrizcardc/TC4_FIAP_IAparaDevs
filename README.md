@@ -34,4 +34,34 @@ ________________________________________________________________________________
   - 🤝 Aperto de Mãos
 - 🛠 Baseado no MediaPipe Pose para análise de postura e movimentos.
 ____________________________________________________________________________________________________________________________________________________________________________________
+⚠️ Detecção de Anomalias:
 
+- 🔄 Identifica comportamentos atípicos e mudanças rápidas de emoções
+  
+- 📈 Detecta anomalias quando há:
+  
+  - Mudança frequente de emoções em curtos períodos
+    
+  - Repetição excessiva de uma mesma emoção
+ 
+____________________________________________________________________________________________________________________________________________________________________________________
+📝 Geração de Relatório:
+
+- 📊 Resumo Automático:
+  - Total de frames analisados
+  - Emoções detectadas
+  - Atividades identificadas
+  - Anomalias encontradas
+  - 🖼 Imagens Destacadas:
+    
+      - Salva frames das atividades e anomalias detectadas para análise posterior
+
+
+🛠 Tecnologias Utilizadas
+📦 OpenCV — Manipulação de vídeo e imagens
+🎭 MediaPipe — Detecção de pose e reconhecimento de movimentos
+😄 FER — Análise de expressões faciais
+🛠 DeepFace — Detecção avançada de rostos
+⏳ Tqdm — Barra de progresso para processamento de vídeo
+📈 NumPy — Manipulação eficiente de arrays e dados
+🚀 Como Executar o Projeto
