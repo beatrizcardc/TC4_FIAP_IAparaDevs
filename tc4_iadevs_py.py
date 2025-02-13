@@ -252,8 +252,19 @@ output_dir = '/content/drive/MyDrive/Analise_Emocoes_TC4'
 os.makedirs(output_dir, exist_ok=True)
 
 # Pasta para salvar frames de anomalias e atividades específicas
-anomaly_dir = os.path.join(output_dir, 'anomaly_frames20')
+anomaly_dir = os.path.join(output_dir, 'anomaly_frames_50')
 os.makedirs(anomaly_dir, exist_ok=True)
+
+# Função para adicionar texto com fundo no vídeo
+def add_text_with_background(frame, texts, font_size=0.8, position=(10, 30), bg_color=(240, 240, 240), text_color=(0, 0, 0), font_thickness=2, line_spacing=1.5):
+    x, y = position
+    for i, text in enumerate(texts):
+        text_size, _ = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, font_size, font_thickness)
+        text_width, text_height = text_size
+        y_text = y + int(i * text_height * line_spacing)
+        cv2.rectangle(frame, (x, y_text - text_height - 5), (x + text_width + 10, y_text + 5), bg_color, -1)
+        cv2.putText(frame, text, (x + 5, y_text), cv2.FONT_HERSHEY_SIMPLEX, font_size, text_color, font_thickness, cv2.LINE_AA)
+    return frame
 
 # Histórico para anomalias e atividades
 emotion_history = []
@@ -355,7 +366,7 @@ def process_video_emotions_activities(video_path):
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     fps = cap.get(cv2.CAP_PROP_FPS)
 
-    output_video_path = os.path.join(output_dir, 'fdetection_video_emotions_activities49.mp4')
+    output_video_path = os.path.join(output_dir, 'fdetection_video_emotions_activities_unique_anomalies.mp4')
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     out = cv2.VideoWriter(output_video_path, fourcc, fps, (width, height))
 
@@ -387,6 +398,9 @@ def process_video_emotions_activities(video_path):
             if emotion != last_emotion:
                 events_summary['emotions'][emotion] = events_summary['emotions'].get(emotion, 0) + 1
                 last_emotion = emotion
+
+            # Inicialização segura da variável activities
+            activities = set(detect_activities(pose_results))
 
             activities = set(detect_activities(pose_results))
             if activities != last_activities:
