@@ -12,5 +12,17 @@ ________________________________________________________________________________
 
 
 - 🛠 Utiliza a biblioteca DeepFace com o detector retinaface para detecção precisa de rostos.
+
+😊 Análise de Expressões Emocionais:
+
+🔍 Detecta expressões emocionais dos rostos identificados
+
+🛠 Utiliza a biblioteca FER (Facial Expression Recognition) para reconhecer emoções como:
+
+- 😊 Felicidade
+- 😢 Tristeza
+- 😠 Raiva
+- 😨 Medo
+- 😲 Surpresa
 ____________________________________________________________________________________________________________________________________________________________________________________
 
