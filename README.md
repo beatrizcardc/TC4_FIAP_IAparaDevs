@@ -83,8 +83,10 @@ ________________________________________________________________________________
      - 🎥 https://youtu.be/YgX-sOUhNts - Vídeo com o Resultado da Análise de Emoções, Atividades e Anomalias
  
  ┣ 📜 requirements.txt    # Dependências do projeto
+
+   - https://github.com/beatrizcardc/TC4_FIAP_IAparaDevs/blob/main/requirements.txt
  
- ┣ 📜 clean_analysis_notebook.ipynb  # Notebook limpo com a análise
+ ┣ 📜 notebook.ipynb      # Notebook limpo com a análise
  
  ┗ 📜 README.md           # Descrição do projeto
 
