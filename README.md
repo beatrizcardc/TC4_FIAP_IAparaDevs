@@ -71,8 +71,13 @@ ________________________________________________________________________________
 📂 Estrutura do Projeto:
 
 📦 projeto
+
  ┣ 📂 anomaly_frames      # Imagens de anomalias detectadas
+ 
  ┣ 📂 output_analysis     # Vídeos processados
+ 
  ┣ 📜 requirements.txt    # Dependências do projeto
+ 
  ┣ 📜 clean_analysis_notebook.ipynb  # Notebook limpo com a análise
+ 
  ┗ 📜 README.md           # Descrição do projeto
