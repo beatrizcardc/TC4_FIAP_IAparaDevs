@@ -122,7 +122,11 @@ ________________________________________________________________________________
 
    - https://github.com/beatrizcardc/TC4_FIAP_IAparaDevs/blob/main/requirements.txt
  
- ┣ 📜 notebook.ipynb      # Notebook limpo com a análise
+ ┣ 📜 aplicação            # Aplicação "limpa" e do processo
+
+   - https://github.com/beatrizcardc/TC4_FIAP_IAparaDevs/blob/main/tc4_iadevs_py.py    - aplicação "limpa"
+
+   - 
  
  ┗ 📜 README.md           # Descrição do projeto
 
