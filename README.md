@@ -73,7 +73,7 @@ ________________________________________________________________________________
 - ❓ **Anomaly detected**: 10 vezes
 - ❓ **Disgust**: 4 vezes
 
-⚠️ **Total de Anomalias detectadas:** 69
+⚠️ **Total de Anomalias detectadas em frames:** 69
 
 ## 🔍 Atividades detectadas (eventos únicos):
 - ✋ (Esq) **Mao esquerda levantada**: 21 vezes
