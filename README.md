@@ -7,22 +7,31 @@ ________________________________________________________________________________
 
 👤 Reconhecimento Facial:
 
-
 - 📌 Identificação de rostos no vídeo
-
 
 - 🛠 Utiliza a biblioteca DeepFace com o detector retinaface para detecção precisa de rostos.
 
 😊 Análise de Expressões Emocionais:
 
-🔍 Detecta expressões emocionais dos rostos identificados
+- 🔍 Detecta expressões emocionais dos rostos identificados
 
-🛠 Utiliza a biblioteca FER (Facial Expression Recognition) para reconhecer emoções como:
+- 🛠 Utiliza a biblioteca FER (Facial Expression Recognition) para reconhecer emoções como:
 
-- 😊 Felicidade
-- 😢 Tristeza
-- 😠 Raiva
-- 😨 Medo
-- 😲 Surpresa
+  - 😊 Felicidade
+  - 😢 Tristeza
+  - 😠 Raiva
+  - 😨 Medo
+  - 😲 Surpresa
+ 
+🏃 Detecção de Atividades Corporais:
+
+- ✋ Detecta atividades como:
+
+  - Mão Esquerda Levantada
+  - Mão Direita Levantada
+  - 🙌 Mãos Levantadas
+  - 💃 Dança
+  - 🤝 Aperto de Mãos
+- 🛠 Baseado no MediaPipe Pose para análise de postura e movimentos.
 ____________________________________________________________________________________________________________________________________________________________________________________
 
