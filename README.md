@@ -32,6 +32,7 @@ ________________________________________________________________________________
   - 🙌 Mãos Levantadas
   - 💃 Dança
   - 🤝 Aperto de Mãos
+    
 - 🛠 Baseado no MediaPipe Pose para análise de postura e movimentos.
 ____________________________________________________________________________________________________________________________________________________________________________________
 ⚠️ Detecção de Anomalias:
@@ -56,12 +57,13 @@ ________________________________________________________________________________
     
       - Salva frames das atividades e anomalias detectadas para análise posterior
 
+____________________________________________________________________________________________________________________________________________________________________________________
+🛠 Tecnologias Utilizadas:
 
-🛠 Tecnologias Utilizadas
-📦 OpenCV — Manipulação de vídeo e imagens
-🎭 MediaPipe — Detecção de pose e reconhecimento de movimentos
-😄 FER — Análise de expressões faciais
-🛠 DeepFace — Detecção avançada de rostos
-⏳ Tqdm — Barra de progresso para processamento de vídeo
-📈 NumPy — Manipulação eficiente de arrays e dados
-🚀 Como Executar o Projeto
+- 📦 OpenCV — Manipulação de vídeo e imagens
+- 🎭 MediaPipe — Detecção de pose e reconhecimento de movimentos
+- 😄 FER — Análise de expressões faciais
+- 🛠 DeepFace — Detecção avançada de rostos
+- ⏳ Tqdm — Barra de progresso para processamento de vídeo
+- 📈 NumPy — Manipulação eficiente de arrays e dados
+
