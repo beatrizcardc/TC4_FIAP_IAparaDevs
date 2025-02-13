@@ -87,3 +87,40 @@ ________________________________________________________________________________
  ┣ 📜 clean_analysis_notebook.ipynb  # Notebook limpo com a análise
  
  ┗ 📜 README.md           # Descrição do projeto
+
+ ┗ 📜 Relatório
+
+ _____________________________________________________________________________________________________________________________________________________________________________________
+
+## 🔧 Ajustes Realizados e Melhorias no Projeto
+
+🧑‍💻 Refinamento das Técnicas Utilizadas
+
+- Detecção Facial com RetinaFace e MediaPipe:
+  - Melhoramos a precisão para garantir a identificação de rostos em perfis extremos e posições incomuns, como pessoas deitadas ou parcialmente ocultas.
+
+- Análise de Emoções com FER:
+  - Implementamos a detecção de emoções como felicidade, tristeza, raiva e surpresa.
+
+- Identificação de Anomalias Emocionais:
+    - Utilizamos um histórico de 15 frames para analisar mudanças bruscas de emoção, considerando anomalias quando ocorriam mais de 8 mudanças consecutivas.
+
+- Evento Único:
+    - Redução da contagem frame a frame, analisando cada evento como um único momento, aproximando a análise ao comportamento humano.
+      
+🎭 Detecção e Refinamento de Atividades
+
+  - Detecção de Mãos Levantadas, Dança e Aperto de Mãos:
+  - Refinamos a lógica para evitar falsos positivos e capturar eventos reais com maior precisão.
+
+- Separação de Frames:
+
+    - Frames das atividades detectadas (dança, aperto de mãos e anomalias) são salvos para refinar e validar manualmente a lógica de detecção, garantindo maior confiabilidade nos resultados.
+
+📈 Relatório e Visualização
+
+- Geração Automática de Relatório:
+    - Relatório detalhado com ícones para emoções e atividades, tornando a apresentação clara e visualmente amigável.
+
+- Captura de Frames:
+    - Frames de atividades específicas (dança, aperto de mãos) e anomalias são salvos automaticamente para análise posterior.
