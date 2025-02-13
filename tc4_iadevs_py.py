@@ -252,7 +252,7 @@ output_dir = '/content/drive/MyDrive/Analise_Emocoes_TC4'
 os.makedirs(output_dir, exist_ok=True)
 
 # Pasta para salvar frames de anomalias e atividades específicas
-anomaly_dir = os.path.join(output_dir, 'anomaly_frames_50')
+anomaly_dir = os.path.join(output_dir, 'anomaly_frames20')
 os.makedirs(anomaly_dir, exist_ok=True)
 
 # Função para adicionar texto com fundo no vídeo
@@ -398,9 +398,6 @@ def process_video_emotions_activities(video_path):
             if emotion != last_emotion:
                 events_summary['emotions'][emotion] = events_summary['emotions'].get(emotion, 0) + 1
                 last_emotion = emotion
-
-            # Inicialização segura da variável activities
-            activities = set(detect_activities(pose_results))
 
             activities = set(detect_activities(pose_results))
             if activities != last_activities:
