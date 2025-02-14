@@ -104,7 +104,10 @@ ________________________________________________________________________________
 
 📂 Estrutura do Projeto:
 
-📦 projeto
+
+┣  📦 projeto
+
+  - https://github.com/beatrizcardc/TC4_FIAP_IAparaDevs
 
  ┣ 📂 anomaly_frames      # Imagens de anomalias detectadas
 
